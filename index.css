@@ -56,8 +56,9 @@ body{
 .team{
     margin: 0;
 }
-table{
-    align-self: center;
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
 }
 tr{
     text-align: center;
