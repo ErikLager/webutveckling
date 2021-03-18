@@ -1,48 +1,95 @@
+h1{
+    padding: 8px;
+}
+hr{
+    color: black;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+nav a{
+    background-color: rgb(144, 144, 144);
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    /* background-color: rgba(0, 255, 0, 0.5);  */
+}
+nav a:hover{
+    background-color: rgba(0, 177, 0, 0.5);
+}
+
 img{
     width: 30%;
     height: 30%;
     border-collapse: collapse;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
-.team{
-    align-content: center;
-}
-
-.FlaeAura{
+.FlaeAura, .flaehtml{
     background-color: red;
 }
-.OllieAura{
+.OllieAura, .olliehtml{
     background-color: olive;
 }
-.AzuliAura{
-    background-color: #00f;
+.AzuliAura, .azulihtml{
+    background-color: blue;
 }
-.SaffAura{
+.SaffAura, .saffhtml{
     background-color: #50C878;
+}
+
+.flaecontent, .olliecontent, .azulicontent, .saffcontent{
+    padding-left: 1%;
+}
+
+.emblem{
+    border-style: solid;
+    background-color: white;
+    width: 10%;
+    height: 10%;
 }
 
 body{
     margin-left: auto;
     margin-right: auto;
     background-color: coral;
+    margin-bottom: 0;
 }
 
 .team{
-    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 1000px; */
 }
+
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
-}
-tr{
     text-align: center;
-}
-th, td{
     background-color: rgb(137, 163, 240);
     padding: 5px;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
 }
 
 footer{
     background-color: #50C878;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
