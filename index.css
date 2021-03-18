@@ -1,8 +1,9 @@
 h1{
     padding: 8px;
 }
-hr{
-    color: black;
+
+*{
+    font-family: sans-serif;
 }
 
 nav{
@@ -24,10 +25,12 @@ nav a{
     color: white;
     text-decoration: none;
     cursor: pointer;
-    /* background-color: rgba(0, 255, 0, 0.5);  */
+    border-radius: 20px;
+    transition: .4s;
 }
 nav a:hover{
     background-color: rgba(0, 177, 0, 0.5);
+    transition: .4s;
 }
 
 img{
@@ -37,6 +40,7 @@ img{
     display: inline;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 8px;
 }
 
 .FlaeAura, .flaehtml{
@@ -54,13 +58,42 @@ img{
 
 .flaecontent, .olliecontent, .azulicontent, .saffcontent{
     padding-left: 1%;
+    box-sizing: border-box;
+}
+
+.bio, .left, .right{
+    float: left;
+}
+
+.left{
+    width: 40%;
+}
+.left img{
+    width: 100%;
+}
+.bio{
+    width: 40%;
+    margin-left: 1px;
+}
+.right{
+    width: 20%;
+}
+
+.saffsecret{
+    color:#50C878;
 }
 
 .emblem{
     border-style: solid;
-    background-color: white;
+    background-color: black;
     width: 10%;
     height: 10%;
+    border-radius: 20px;
+    float: right;
+    display: inline;
+}
+h2{
+    float: right;
 }
 
 body{
