@@ -5,7 +5,13 @@ h1{
 *{
     font-family: sans-serif;
 }
+body{
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 70%;
 
+}
 nav{
     width: 100%;
     height: 50px;
@@ -72,15 +78,11 @@ img{
     width: 100%;
 }
 .bio{
-    width: 40%;
+    width: 45%;
     margin-left: 1px;
 }
 .right{
-    width: 20%;
-}
-
-.saffsecret{
-    color:#50C878;
+    float: left;
 }
 
 .emblem{
@@ -103,12 +105,6 @@ body{
     margin-bottom: 0;
 }
 
-.team{
-    margin-left: auto;
-    margin-right: auto;
-    /* width: 1000px; */
-}
-
 table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
@@ -119,10 +115,11 @@ table, th, td{
 table{
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 30px;
 }
 
 footer{
     background-color: #50C878;
-    margin-top: 5px;
+    margin-top: 50px;
     margin-bottom: 0;
 }
