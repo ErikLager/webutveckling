@@ -6,9 +6,12 @@ h1 a{
     color: black;
 }
 
+a{text-decoration: none;}
+
 *{
     font-family: sans-serif;
 }
+/* background colour */
 body{
     background: #2193b0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
@@ -122,8 +125,8 @@ h2{
 
 /* Styling for picture on emblem */
 .emblem{
-    border-style: solid;
-    background-color: black;
+    border-style: solid;    
+    background-color: rgba(0, 0, 0, .2);
     width: 10%;
     height: 10%;
     border-radius: 20px;
