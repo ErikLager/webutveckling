@@ -76,6 +76,11 @@ img{
     background-color: #50C878;
 }
 
+/* Styling header in bio */
+h3:first-of-type{
+    font-size: x-large;
+}
+
 /* everyhing on the individual pages */
 .flaecontent, .olliecontent, .azulicontent, .saffcontent{
     padding-left: 1%;
@@ -83,7 +88,7 @@ img{
 }
 
 /* makes 3 column layout possible */
-.bio, .left, .right{
+.bio, .left{
     float: left;
 }
 
@@ -98,6 +103,22 @@ img{
     width: 45%;
     padding-left: 7px;
 }
+/* header 2 over emblem */
+h2{
+    float: right;
+}
+
+/* List of traits moves to the right */
+.right{
+    float: right;
+    width: 10%;
+}
+.right img{
+    width: 100%;
+}
+.right ul{
+    padding-left: 0;
+}
 
 /* Styling for picture on emblem */
 .emblem{
@@ -108,15 +129,6 @@ img{
     border-radius: 20px;
     float: right;
     display: inline;
-}
-/* header 2 over emblem */
-h2{
-    float: right;
-}
-
-/* List of traits moves to the right */
-.right{
-    float: right;
 }
 
 /* makes the content not take up the full screen */
